@@ -57,7 +57,7 @@ const ManageHotelForm = ({ onSave, isLoading }: Props) => {
                 <GuestSection />
                 <ImagesSection />
                 <span className="flex justify-end">
-                    <button type="submit" className="bg-blue-600 text-white hover:bg-blue-500 text-xl disabled:bg-gray-500" disabled={isLoading}>{isLoading ? "Saving..." : "Save"}</button>
+                    <button type="submit" className="bg-blue-600 text-white hover:bg-blue-500 text-xl disabled:bg-gray-500 p-2" disabled={isLoading}>{isLoading ? "Saving..." : "Save"}</button>
                 </span>
             </form>
         </FormProvider>

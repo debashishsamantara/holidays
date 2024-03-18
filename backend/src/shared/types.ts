@@ -14,3 +14,12 @@ export type HotelType = {
     imageUrls: string[];
     lastUpdated: Date;
 }
+
+export type HotelSearchRepsonse = {
+    data: HotelType[];
+    pagination: {
+        total: number;
+        page: number;
+        pages: number;
+    }
+}
